@@ -1,4 +1,13 @@
-# coding: utf-8
+# -*- encoding: utf-8 -*-
+'''
+@File    :   pb_time.py
+@Time    :   2023/02/16 14:56:02
+@Author  :   YUSHUAI 
+@Version :   1.0
+@Contact :   yushuailover@163.com
+@Desc    :   时间处理的公共函数,逐步完善关于时间处理的函数
+'''
+
 import re
 import time
 import calendar
@@ -6,15 +15,8 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import math
 from contextlib import contextmanager
-__author__ = 'wangpeng'
 
-'''
-FileName:     pb_time.py
-Description:  时间处理的公共函数,逐步完善关于时间处理的函数
-Author:       wangpeng
-Date:         2015-08-21
-version:      1.0.0.050821_beat
-'''
+
 
 
 def run(date_s, date_e):
