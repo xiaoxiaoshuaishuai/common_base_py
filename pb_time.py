@@ -2,9 +2,9 @@
 '''
 @File    :   pb_time.py
 @Time    :   2023/02/16 14:56:02
-@Author  :   YUSHUAI 
+@Author  :   
 @Version :   1.0
-@Contact :   yushuailover@163.com
+@Contact :   
 @Desc    :   时间处理的公共函数,逐步完善关于时间处理的函数
 '''
 
@@ -208,16 +208,7 @@ def ymd2ymd(num, interval, namerule, ymd):
 
 
 def days2hms(days):
-    '''
-    Function:    days2ymd
-    Description: 将天的计数信息转换为时分秒微秒信息
-    author:      wangpeng
-    date:        2017-03-21
-    Input:       days 天的计数数值(0-1)的浮点数
-    Output：              
-    Return:      类型：字符串   格式:HH:MM:SS:MS  实例: 09:00:00:999  (异常返回 None)
-    Others: 
-    '''
+
     if days >= 1:
         return None
     # 天单位转换成小时
